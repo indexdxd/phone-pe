@@ -1,0 +1,121 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-weight: 500;
+    }
+    
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 5vw;
+        /* background-color: red; */
+        height: 12vw;
+        padding-bottom: 3vw;
+        padding-top: 2vw;
+    }
+    
+    #n1 {
+        color: #777777;
+    }
+    
+    #n2 {
+        padding-right: 5vw;
+    }
+    
+    #n2 img {
+        width: 22vw;
+    }
+    
+    #check {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 5vw;
+        padding-top: 5vw;
+        padding-bottom: 1vw;
+        background-color: #e8e8e8;
+    }
+    
+    #check h4 {
+        color: #777777;
+    }
+    
+    #check i {
+        padding-right: 3vw;
+    }
+    
+    #sec-fo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 18vw;
+        /* background-color: red; */
+    }
+    
+    #lines {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2vw;
+    }
+    
+    #lines img {
+        width: 20vw;
+    }
+    
+    #warn {
+        text-align: center;
+        background-color: rgb(255, 237, 165);
+        margin: 5vw 8.5vw;
+        border-radius: 4.6vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+        padding: 2vw 2vw;
+    }
+    
+    #warn img {
+        width: 6vw;
+        background-color: rgb(230, 185, 24);
+        border-radius: 50%;
+    }
+    
+    .nos {
+        background-color: #d8d8d8;
+        height: 30%;
+        margin-top: 50%;
+    }
+    
+    .text {
+        display: inline-block;
+        padding: 4.5vw 15vw;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .text img {
+        width: 7vw;
+    }
+    
+    .text:nth-child(10) {
+        padding: 4.5vw 12vw;
+    }
+    
+    .text:nth-child(11) {
+        padding: 4.5vw 16vw;
+    }
+    
+    .text:nth-child(12) {
+        padding: 4.5vw 12.5vw;
+        width: 6vw;
+    }
